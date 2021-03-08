@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-calc">
+        <div class="calculator">
+            <div class="cont-screen">
+                <input id="screen-result" disabled type="text" readonly >
+            </div>
+            <div class="btn-class btn-radius">
+                <input id="btn" type="button" value="7" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="8" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="9" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="+" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="4" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="5" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="6" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="-" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="1" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="2" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="3" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="*" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="0" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-radius">
+                <input type="button" value="/" onclick="getData(this)">
+            </div>
+            <div class="btn-class btn-clear">
+                <input type="button" value="C" class="clear" onclick="clean()">
+            </div>
+            <div class="btn-class btn-equal">
+                <input type="button" value="=" class="equal" onclick="calculate()">
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

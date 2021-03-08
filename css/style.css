@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  padding: 0px;
+  margin: 0px; }
+
+.container-calc {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-blend-mode: multiply,multiply; }
+  .container-calc .calculator {
+    border: 5px solid #f3f3f3;
+    border-radius: 10px;
+    display: grid;
+    width: 60vh;
+    height: 86vh;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px;
+    grid-gap: 20px;
+    padding: 11px 16px; }
+    .container-calc .calculator .cont-screen {
+      background: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+      color: #f3f3f3f3;
+      border: .2px solid #f3f3f3;
+      box-shadow: .5px -2px #f3f3f3;
+      border-radius: 15px;
+      padding: 5px;
+      grid-column: 1 / 5;
+      text-align: center; }
+      .container-calc .calculator .cont-screen #screen-result {
+        background: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+        color: #f3f3f3;
+        border: none;
+        padding: 0px;
+        outline: none;
+        font-size: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: center; }
+    .container-calc .calculator .btn-class {
+      color: #f3f3f3f3; }
+    .container-calc .calculator .btn-radius {
+      border-radius: 5px; }
+    .container-calc .calculator .btn-class > .equal {
+      background-color: #557cff; }
+    .container-calc .calculator .btn-class > .equal:hover {
+      background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+      transition-duration: .8s; }
+    .container-calc .calculator .btn-class > input {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      outline: none;
+      font-size: 40px;
+      background: transparent;
+      border-radius: 20px;
+      color: #f3f3f3;
+      box-shadow: .5px -2px #f3f3f3; }
+    .container-calc .calculator .btn-class > input:hover {
+      background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%); }
